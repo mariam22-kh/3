@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&family=Roboto:ital,wght@0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+#title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: blueviolet;
+    font-size: 35px;
+    font-weight:bolder;
+    border:5px outset red ;
+    width: 200px;
+    
+}
+ul {
+        background: #3399ff;
+        padding: 20px;
+}
+ul li{
+    list-style: none;
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+.trace {
+    border: 5px outset orange;
+    background: #efc6c6;
+}
+.trace{
+    font-family: 'Brygada 1918', serif;
+}
+*{
+    background-color: #fac1f7;
+}

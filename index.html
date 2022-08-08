@@ -5,26 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My new page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
       <a name="home"></a> 
-      <h1>HOME</h1>     
+     
         <nav>
-            <h1>navbar</h1>
+            <h1 id="title">navbar 
+            </h1>
 
-    <ul type="disc">
-      <li>about</li>
-      <li>work</li>
-      <li>resume</li>
-      <li>contact</li>
+    <ul type="disc" >
+      <a href="#12345">
+        <li>about</li>
+      </a>
+      <a href="#4567">
+        <li>work</li>
+      </a>
+      <a href="#aa">
+        <li>resume</li>
+      </a>
+      <a href="#zz">
+        <li>contact</li>
+      </a>
     </ul>
         </nav>
     </header>
     <main>
         
         <section>
-            <h1>about</h1>
+            <h1 id="12345" class="trace" >about</h1>
             <table border="1px">
                 <tr>
                   <th>name</th>
@@ -45,14 +55,14 @@
         </section>
 
         <section>
-            <h1>work</h1>
+            <h1 id="4567" class="trace">work</h1>
             <img src="https://thumbs.dreamstime.com/b/l-italie-imag%C3%A9e-26968609.jpg" alt="a nice view from the window" > 
             
             <img src="./images/kingsraid-ios_android-artworkpandemonium.jpg" alt="whatching some  anime while workings" > 
         </section>
 
         <section>
-            <h1>resume</h1>
+            <h1 id="aa" class="trace">resume</h1>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/spARMzqSgRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; " allowfullscreen></iframe>
         </section>
 
@@ -64,8 +74,9 @@
         </section>
 
         <section>
-          <h1>contact</h1>
-          <p>name: mariam<br>
+          <h1 id="zz" class="trace">contact</h1>
+       
+          <p>name: mariam
           age: 14<br>
           pronouns: she/her<br>
           language: english arabic frensh japonais korean<br>
